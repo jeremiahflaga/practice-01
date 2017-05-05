@@ -43,5 +43,27 @@ namespace SieveOfEratosthenesKata.Tests
             Assert.Equal(3, primes[1]);
             Assert.Equal(5, primes[2]);
         }
+
+        [Fact]
+        public void Test6()
+        {
+            int[] primes = PrimeGenerator.generatePrimes(6);
+
+            Assert.Equal(3, primes.Length);
+            Assert.Equal(2, primes[0]);
+            Assert.Equal(3, primes[1]);
+            Assert.Equal(5, primes[2]);
+        }
+
+        [Fact]
+        public void Test7()
+        {
+            int[] primes = PrimeGenerator.generatePrimes(7);
+
+            Assert.Equal(3, primes.Length);
+            Assert.Equal(2, primes[0]);
+            Assert.Equal(3, primes[1]);
+            Assert.Equal(5, primes[2]);
+        }
     }
 }
