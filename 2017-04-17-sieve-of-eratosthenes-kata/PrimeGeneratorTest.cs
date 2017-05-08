@@ -64,7 +64,7 @@ namespace SieveOfEratosthenesKata.Tests
             Assert.Equal(2, primes[0]);
             Assert.Equal(3, primes[1]);
             Assert.Equal(5, primes[2]);
-            Assert.Equal(7, primes[2]);
+            Assert.Equal(7, primes[3]);
         }
     }
 }
